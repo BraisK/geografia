@@ -42,7 +42,7 @@ public class Departamento {
 		for (Municipio m : municipios) {
 			if (m.getNombre().equals(nombre)) {
 				mun = m;
-				System.out.println(m.toString());
+				//System.out.println(m.toString()); Por este syso en el testeo se aparecia uno mas
 			}
 		}
 		return mun;
